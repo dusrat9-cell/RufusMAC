@@ -1,5 +1,7 @@
 # RufusMac
 
+. No está afiliado ni respaldado por Rufus o su autor, Pete Batard. Todo el crédito por el diseño original y El comportamiento va a Rufus.
+
 Rufus para macOS, en Swift y con interfaz SwiftUI. Reimplementación nativa de lo que
 Rufus hace en Windows: escribir ISOs híbridas y montar un USB instalador de Windows,
 incluidas las dos cosas que macOS no sabe hacer solo (partir `install.wim` y quitar los
