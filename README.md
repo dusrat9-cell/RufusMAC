@@ -151,4 +151,15 @@ GPLv3, la misma que Rufus. El algoritmo de split viene de
 
 Cualquier aporte o donacion : https://ko-fi.com/dusrat9
 
+Este proyecto es una adaptación inspirada en la popular herramienta de código abierto **Rufus** (desarrollada originalmente por Pete Batard para Windows), con el objetivo de construir una solución funcional y nativa para entornos **macOS**.
+
+## ⚖️ Créditos y Licencia (GNU GPLv3)
+
+Este proyecto es de código abierto y se distribuye bajo la licencia **GNU General Public License v3 (GPLv3)**, en estricto cumplimiento con los términos del proyecto original.
+
+* **Reconocimiento de Autoría:** Todo el crédito por el concepto original, algoritmos de validación y la excelencia técnica del ecosistema Rufus pertenece a **Pete Batard** (Copyright © 2011-2026 Pete Batard).
+* **Derivación de Código:** En los módulos donde se ha adaptado o traducido lógica directa del repositorio original, se mantienen intactos los comentarios de derechos de autor y atribución correspondientes.
+
+De acuerdo con la licencia GPLv3, este software es completamente libre: puedes modificarlo, distribuirlo y estudiar su código fuente, siempre y cuando cualquier versión derivada se mantenga bajo esta misma licencia abierta.
+
 
