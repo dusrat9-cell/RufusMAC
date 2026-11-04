@@ -48,6 +48,7 @@ Rufus (GPLv3, el proyecto del que esto es un port) la primera vez, se cachean en
 | Entrada | Estado | Cómo |
 |---|---|---|
 | No arrancable | funciona | solo formatea |
+| Mac OS X | vía App o DMG | elige la ISO o DMG o App (Apple Store) se escribe tal cual al usb |
 | MS-DOS, FreeDOS | funciona | 27 ficheros de FreeDOS 1.4 + boot record FAT16/FAT32 de ms-sys |
 | Grub 2.04 | funciona | `boot.img` en el MBR, `core.img` en el sector 1, `boot/grub/grub.cfg` |
 | Imagen de disco o ISO | funciona | ISO de Windows, o escritura DD para ISO híbridas |
