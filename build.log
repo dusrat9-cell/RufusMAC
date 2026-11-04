@@ -1,0 +1,29 @@
+:: compilando (x86_64-apple-macosx14.0)
+Sources/Views.swift:248:10: warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+246 |             }
+247 |         }
+248 |         .onChange(of: model.selectedDisk) { _ in model.diskSelectionChanged() }
+    |          `- warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+249 |     }
+250 | 
+
+Sources/Views.swift:316:10: warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+314 |             }
+315 |         }
+316 |         .onChange(of: model.bootEntry) { newValue in
+    |          `- warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+317 |             model.chooseBootEntry(newValue)
+318 |         }
+
+Sources/Views.swift:361:22: warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+359 |                 Toggle("Listar discos USB", isOn: $model.listUSBHardDrives)
+360 |                     .toggleStyle(RufusCheckboxStyle())
+361 |                     .onChange(of: model.listUSBHardDrives) { _ in model.refreshDisks() }
+    |                      `- warning: 'onChange(of:perform:)' was deprecated in macOS 14.0: Use `onChange` with a two or zero parameter action closure instead. [#DeprecatedDeclaration]
+362 |                 Toggle("Añadir correcciones para BIOS antiguos (partición extra, alineación, etc.)",
+363 |                        isOn: $model.fixOldBIOS)
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+:: firmando (ad-hoc)
+:: listo -> /Users/ithansnake/WorkBuddy AI/2026-10-24-13-08-10/RufusMac/RufusMac.app
+   ábrela con:  open RufusMac.app
