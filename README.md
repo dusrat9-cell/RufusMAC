@@ -148,3 +148,7 @@ comprobación de bloques recorriendo el dispositivo entero.
 
 GPLv3, la misma que Rufus. El algoritmo de split viene de
 [wimlib](https://wimlib.net) y [Rufus](https://github.com/pbatard/rufus).
+
+Cualquier aporte o donacion : https://ko-fi.com/dusrat9
+
+
